@@ -26,7 +26,7 @@ function displayCount(items) {
     let count = ""
 
     items.forEach((item) => {
-        for (let i = 0; i < item; i ++) {
+        for (let i = 0; i < item.key; i ++) {
             count += "*"
         }
         return count
